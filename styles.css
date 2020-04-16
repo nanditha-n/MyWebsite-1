@@ -1,0 +1,372 @@
+/* COSTAMIZED NAV BAR */
+
+.sticky-top{
+    margin-top: 0;
+}
+
+#nav-img {
+    height: 80px;
+    width: 80px;
+    border-radius: 80px;
+    margin-left: 100px;
+}
+
+.nav-btn {
+    margin-right: 1rem;
+    color: #3E9C87;
+}
+
+.design-line-1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+}
+
+.design-line-2 {
+    font-family: 'Josefin Slab', serif;
+    font-size: 1.5rem;
+}
+
+.bg-light {
+    background-color: #E0EBE8!important;
+}
+
+.btn:hover {
+    color:#21564B;
+}
+
+.dropdown-item {
+    color: #3E9C87;
+}
+
+.dropdown-item:hover {
+    color:#21564B;
+}
+
+.center{
+    text-align: center;
+}
+
+h1 {
+    margin: 0rem;
+}
+
+.green{
+    color: #3E9C87;
+}
+
+.grey{
+    color: #8e9ca3;
+}
+
+/* INDEX PAGE DESCRIPTION */
+
+#description{
+    background-color:white;
+}
+
+.desc-container{
+    padding: 0 0 02rem;
+    top: 0;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+}
+
+.desc-img {
+    height: 6.25rem;
+    width: 6.25rem;
+    border-radius: 6.25rem;
+    display: inline-block;
+    margin-bottom: 2%;
+}
+
+.desc-btn {
+    background-color: #21564B;
+    color: white;
+}
+
+.btn-a {
+    color: white;
+}
+
+.btn-a:hover {
+    background-color: #E0EBE8;
+    color: #21564B; 
+}
+
+
+/* FOOTER */
+
+#footer {
+    background-color: #E0EBE8;
+    color: #3E9C87;
+    padding: 2%;
+}
+
+.footer-size {
+    font-size: 0.8rem;
+    padding: 0.5%;
+}
+
+.footer-a {
+    color: #3E9C87;
+    margin: 0.5%;
+}
+
+.footer-a:hover{
+    color:#21564B;
+}
+
+
+/* PAGE TITLE GENERAL */
+
+.title-bg-color {
+    background-color: #E0EBE8;
+    color: #3E9C87;
+    padding-top: 7%;
+}
+
+.title-ln-container {
+    display: inline-block;
+    height: 10rem;
+    width: 35rem;
+    position: relative;
+    padding: 1%;
+}
+
+/* .index-main-title-top {
+    top: 4rem;
+} */
+
+.title-ln{
+    font-family: 'Sacramento', cursive;
+    font-size: 4rem;
+}
+
+.flag {
+    display: inline-block;
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+}
+
+.fg-1 {
+    float: left;
+}
+
+.fg-2 {
+    float: right;
+}
+
+@media (min-width:500px ) and (max-width: 939px) {
+/* 1014px){ */
+    .title-ln{
+        font-size: 2.5rem;
+    }
+
+    .title-ln-container {
+        height: 5rem;
+        width: 17.5rem;
+    }
+
+    .flag {
+        height: 5rem;
+        width: 5rem;
+    }
+}
+
+/* INDEX PAGE ENVIRONMENT */
+
+#des {
+    background-color: #E0EBE8;
+}
+
+.des-container {
+ height: 10rem;
+ width: 20rem;
+ margin: 0 auto;
+ background-color: #E0EBE8;
+ /* background-color: aqua; */
+}
+
+.obj {
+    display: inline-block;
+    position: relative;
+}
+
+.c1 {
+    float: left;
+    top: 0rem;
+    height: 10rem;
+    width: 14rem;
+    z-index: 3;
+    right: 3rem;
+}
+
+.c2 {
+    float: right;
+    bottom: 10rem;
+    height: 10rem;
+    width: 14rem;
+    z-index: 2;
+    left: 3rem;
+}
+
+.c3 {
+    /* top: 0rem; */
+    bottom: 21.9rem;
+    left: 3rem;
+    height: 10rem;
+    width: 14rem;
+    z-index: 1;
+}
+
+.tree {
+    height: 3rem;
+    width: 2.5rem;
+}
+
+.tr1 {
+    bottom: 22.3rem;
+    right: 8.5rem;
+    z-index: 2;
+}
+
+.tr2 {
+    bottom: 21.6rem;
+    right: 4rem;
+    z-index: 2;
+}
+
+.tr3 {
+    bottom: 25.5rem;
+    right: 2.6rem;
+    z-index: 4;  
+}
+
+.tr4 {
+    bottom: 26.5rem;
+    right: 4rem;
+    z-index: 4;
+}
+
+.tr5 {
+    bottom: 25rem;
+    right: 5.5rem;
+    z-index: 4;
+}
+
+.tr6 {
+    bottom: 26.5rem;
+    left: 10.5rem;
+    z-index: 3;
+}
+
+.tr7 {
+    bottom: 24.5rem;
+    left: 9rem;
+    z-index: 3;
+}
+
+.tr8 {
+    bottom: 25.8rem;
+    left: 3.5rem;
+    z-index: 3;
+}
+
+.home {
+    height: 2.5rem;
+    width: 2rem;
+}
+
+.hm1 {
+    bottom: 29rem;
+    right: 6rem;
+}
+
+.hm2 {
+    bottom: 29.9rem;
+    left: 1.5rem;
+    z-index: 4;
+}
+
+.cloud {
+    height: 5rem;
+    width: 7rem;
+    /* z-index: 1; */
+}
+
+.cld1 {
+    float: left;
+    bottom: 14rem;
+    left: 12rem;
+}
+
+.cld2 {
+    float: right;
+    bottom: 21rem;
+    left: 33rem;
+}
+
+@media ( min-width: 320px) and ( max-width: 375px) {
+    /* .cld1 {
+        
+    } */
+    
+    .cld2 {
+        bottom: 12rem;
+        left: 10rem;
+    }
+}
+
+@media (min-width: 376px) and (max-width: 939px) {
+    /* .cld1 {
+        left: 5rem;
+    } */
+        
+    .cld2 {
+        left: 27rem;
+        bottom: 13rem;
+    }
+}
+
+@media (max-width: 939px) {
+    .design-line-1 {
+        font-size: 3rem;
+    }
+    .design-line-2 {
+        font-size: 1rem;
+    }
+    .cloud {
+        height: 4rem;
+        width: 5.5rem;
+    }
+}
+
+@media (max-width: 939px) {
+    .cld1 {
+        left: 5rem;
+    }
+    .cld2 {
+        left: 20rem;
+    }
+}
+
+@media (max-width: 526px) {
+    .cld2 {
+        bottom: 16rem;
+        left: 18rem;
+    }
+}
+
+@media (max-width: 1206px) {
+    .cld1 {
+        left: 8rem;
+    }
+}
+
+@media (max-width: 780px) {
+    .cld1 {
+        left: 0rem;
+    }
+}
